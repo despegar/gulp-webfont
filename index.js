@@ -18,7 +18,7 @@ var bufferContents = function(file, enc, cb) {
     // return empty file
     return cb();
   }
-  
+
   if (file.isStream()) {
     cb(new gutil.PluginError(PLUGIN_NAME, 'Streaming not supported'));
     return;
