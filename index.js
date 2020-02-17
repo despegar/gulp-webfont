@@ -46,6 +46,8 @@ var endStream = function (cb) {
 }
 function gulpWebfont(o) {
   options = o || {};
+  sources = [];
+ 
   // Creating a stream through which each file will pass
   return through.obj(bufferContents, endStream);
 }
