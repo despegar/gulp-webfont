@@ -49,9 +49,12 @@ var endStream = function(opts){
 }
 function gulpWebfont(o) {
   var options = o || {};
-  if(o.folder){
-    sources[o.folder] = [];
+  if(!o.folder){
+    o.folder = new Date().getTime();
   }
+  
+  sources[o.folder] = [];
+  
   // Creating a stream through which each file will pass
   return through.obj(bufferContents(o.folder), endStream(options));
 }
