@@ -1,24 +1,32 @@
 {
-  "name": "gulp-webfont",
+  "name": "@despegar/gulp-webfont",
   "version": "0.0.1-4",
   "description": "SVG to webfont converter for gulp",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "maintainers": [
+    "julian.schuster@despegar.com",
+    "julian.saidman@despegar.com",
+    "silvio.vitullo@despegar.com",
+    "esteban.coria@despegar.com",
+    "leandro.echevarria@despegar.com",
+    "uxe@despegar.com"
+  ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jvanaert/gulp-webfont.git"
+    "url": "git+https://github.com/despegar/gulp-webfont.git"
   },
-  "author": "Jeroen van Aert",
+  "author": "Julian Schuster",
   "license": "MIT",
   "engines": {
     "node": ">=0.10.0"
   },
   "bugs": {
-    "url": "https://github.com/jvanaert/gulp-webfont/issues"
+    "url": "https://github.com/despegar/gulp-webfont/issues"
   },
-  "homepage": "https://github.com/jvanaert/gulp-webfont#readme",
+  "homepage": "https://github.com/despegar/gulp-webfont#readme",
   "keywords": [
     "gulp",
     "font",
@@ -48,6 +56,6 @@
     "winston": "^2.1.1"
   },
   "publishConfig": {
-    "registry": "http://backoffice.despegar.com/nexus/repository/npm-internal"
+    "registry": "https://backoffice-secure.despegar.com/nexus/repository/npm-hosted/"
   }
 }
